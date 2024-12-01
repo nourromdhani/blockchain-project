@@ -1,0 +1,17 @@
+{
+    "name": "voting-app",
+    "version": "1.0.0",
+    "description": "Voting application using blockchain",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx hardhat test",
+      "deploy": "node scripts/deploy.js"
+    },
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.0",
+      "chai": "^4.3.6",
+      "ethers": "^6.0.0",
+      "hardhat": "^2.15.0"
+    }
+  }
+  

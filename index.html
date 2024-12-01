@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Application de vote électronique</h1>
+    <div id="candidates"></div>
+    <input type="text" id="candidateName" placeholder="Nom du candidat">
+    <button onclick="addCandidate()">Ajouter un candidat</button>
+    <br><br>
+    <input type="number" id="candidateId" placeholder="ID du candidat">
+    <button onclick="vote()">Voter</button>
+    <br><br>
+    <button onclick="displayCandidates()">Afficher les candidats</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
